@@ -9,9 +9,9 @@ export class Contato {
   constructor(
     id_usuario: number,
     telefone_celular: string,
+    telefone_recado: string | undefined,
     email: string,
     endereco: string,
-    telefone_recado?: string
   ) {
     this.id_usuario = id_usuario;
     this.telefone_celular = telefone_celular;
